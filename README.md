@@ -1,3 +1,5 @@
+# Hospital Management System (HMS) - Microservices Architecture
+
 ## Overview
 
 The Hospital Management System is built using a microservices architecture with independent services for patient management, doctor scheduling, appointment booking, billing, payments, prescriptions, and notifications. Each service follows a Database-per-Service pattern and communicates via REST APIs or asynchronous Kafka events. All services are containerized using Docker and orchestrated using Docker Compose or Kubernetes (Minikube).
